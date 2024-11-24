@@ -1,0 +1,40 @@
+﻿/* Changing text colors */
+h1 {
+    color: darkblue;
+    font-family: "Georgia", serif;
+}
+
+h2 {
+    color: darkgreen;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Changing font properties */
+p, ul, ol {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+}
+
+/* Changing background and alignment */
+body {
+    background-color: #f0f8ff;
+    text-align: left;
+    margin: 20px;
+}
+
+/* Adding styles for images */
+img {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Styling mood section */
+.moods {
+    display: flex;
+    gap: 20px;
+}
+
+    .moods div {
+        text-align: center;
+    }
